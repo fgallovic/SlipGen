@@ -1,0 +1,6 @@
+{
+  "name": "Slipgen",
+  "tagline": "Hybrid k-2 slip generator",
+  "body": "#SlipGen\r\n-----------\r\n\r\nHybrid *k*<sup>-2</sup> hybrid slip generator\r\n\r\nThe repository contains the main Fortran code and an example input file. I hope they both are self-explanatory, \r\nbut do not hesitate to contact me if you have any questions or meet any problems with\r\nrunning the code.\r\n\r\n###Brief description of the I/O files\r\n\r\n####Input:\r\n - `slipgen.in`: fault model definition\r\n\r\n####Output:\r\n - `slipgen.txt`: generated hybrid slip distribution\r\n - `slipx.txt` and `slipy.txt`: slices of the slip distribution\r\n - `specx.txt` and `specy.txt`: slices of the slip Fourier spectrum\r\n\r\n###References\r\n - Gallovič, F., and J. Brokešová (2004). On strong ground motion synthesis with k^-2 slip distributions, J. Seismology, 8, 211-224.\r\n - Gallovič, F., and J. Brokešová (2004). The k^-2 rupture model parametric study: example of the 1999 Athens earthquake, Studia geoph. et geod., 48, 589-613.\r\n - See also http://geo.mff.cuni.cz/~gallovic/.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
