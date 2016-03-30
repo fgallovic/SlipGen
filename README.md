@@ -1,15 +1,17 @@
 #SlipGen
 -----------
 
-Hybrid *k^-2^* hybrid slip generator
+Hybrid *k*<sup>-2</sup> hybrid slip generator
 
 The repository contains the main Fortran code and an example input file. I hope they both are self-explanatory, 
 but do not hesitate to contact me if you have any questions or meet any problems with
 running the code.
 
 ###Brief description of the I/O files
+
 ####Input:
  - `slipgen.in`: fault model definition
+
 ####Output:
  - `slipgen.txt`: generated hybrid slip distribution
  - `slipx.txt` and `slipy.txt`: slices of the slip distribution
