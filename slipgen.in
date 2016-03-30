@@ -1,0 +1,9 @@
+11	8		! length and width of the fault
+256	256		! discretization in strike and dip direction
+1.			! K-value
+2	2		! Description of slip of the deterministic part
+0.54    0.18		! (2x2 blocks with mean slip on them)
+0.18    0.18
+
+Athens: 11x8km fault
+
