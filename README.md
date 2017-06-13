@@ -18,6 +18,7 @@ running the code.
  - `specx.txt` and `specy.txt`: slices of the slip Fourier spectrum
 
 ###Note on compiling:
+
 Some compilers may produce error when compiling. Most likely it will be due to the use an old Fortran trick,
 where complex arrays are passed to a subroutine that expects a real array.
 This can be solved by using an appropriate switch. In Intel Fortran compiler in Microsoft Visual Studio do the following.
